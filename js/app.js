@@ -1,17 +1,26 @@
 //Aquí debemos poner el código del primer producto 
 //y no OLVIDES DARLE CTRL+S para guardar los cambios ;)
 
-function menu(option) {
-    (option == 1) ? alert('No tenemos ceviche, pero hay tacos al pastor') :
-      (option == 2) ? alert('No tenemos tacos al pastor, pero hay empanada chilena') :
-        (option == 3) ? alert('No tenemos empanada chilena, pero hay hamburguesa') :
-          (option == 4) ? alert('Gracias por su compra!!!') :
-            (option == 5) ? alert('Regrese pronto!!!') : alert('No tenemos esa opción!!!');
-  }
-  
-  do {
-    var strMenu = '1. Ceviche\n2. Tacos al pastor\n3. Empanada chilena\n4. Hamburguesa\n5. Salir';
-    var option = prompt('¿Qué desea comer?: \n' + strMenu);
-  
-    menu(option);
-  } while ((option != 4) && (option != 5));
+//Yo he iniciado con pasos normales, es decir, no he ingresado aun las restricciones como "no se permiten espacios en blanco o números." Luego, iré agregando estas restricciones.
+//Con esta función se busca cifrar una frase en lenguaje normal; es decir pasarlo a código ASCII.
+function cipher(array){
+
+  //Se crea un prompt para pedirle al usuario que nos ingrese una frase.
+  var phrase= prompt("Ingrese una frase");
+
+  //Mediante este "for" recoremos cada letra y luego esas letras las transformaremos en código ASCII mediante "charCodeAt"
+   for (i=0; i<phrase.length;i++){
+   
+     var acommodation=phrase.charCodeAt(i); 
+   }
+
+   //Una vez qu ya tenemos las palabras en código ASCII, es decir, en npumeros las alacenamos en un array.
+  for (j=0; j<acommodation.length;j++){
+
+    var newPhrase=acommodation.push(j);
+   }
+
+    console.log(newPhrase);
+
+   phrase.fromCharCode(72);
+} 
