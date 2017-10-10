@@ -32,3 +32,6 @@ Una vez que ya tenemos las palabras en código ASCII, es decir en numeros las al
 ## DIAGRAMA DE FLUJO
 
 ![Diagrama](http://subefotos.com/ver/?562a47b63e7baccefe28a7e6b3765ab5o.jpg)
+
+http://subefotos.com/ver/?562a47b63e7baccefe28a7e6b3765ab5o.jpg
+
