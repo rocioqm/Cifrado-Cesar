@@ -9,21 +9,20 @@ Se crea un prompt para pedirle al usuario que nos ingrese una frase.
     var phrase= prompt("Ingrese una frase");
 
 Mediante este "for" recoremos cada letra y luego esas letras las transformaremos en código ASCII mediante "charCodeAt"
+    
     for (i=0; i<phrase.length;i++){
    
      var acommodation=phrase.charCodeAt(i); 
      }
 
-Una vez qu ya tenemos las palabras en código ASCII, es decir, en npumeros las alacenamos en un array.
+Una vez que ya tenemos las palabras en código ASCII, es decir, en npumeros las alacenamos en un array.
+
     for (j=0; j<acommodation.length;j++){
 
      var newPhrase=acommodation.push(j);
      }
-
-    console.log(newPhrase);
-
-   phrase.fromCharCode(72);
-} 
+   return cipher
+ } 
 
 
 ## DIAGRAMA DE FLUJO

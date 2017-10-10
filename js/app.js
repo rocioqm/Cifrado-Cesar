@@ -14,13 +14,10 @@ function cipher(array){
      var acommodation=phrase.charCodeAt(i); 
    }
 
-   //Una vez qu ya tenemos las palabras en código ASCII, es decir, en npumeros las alacenamos en un array.
+   //Una vez qu ya tenemos las palabras en código ASCII, es decir en numeros las alacenamos en un array y con eso está concluido el cifrado.
   for (j=0; j<acommodation.length;j++){
 
     var newPhrase=acommodation.push(j);
    }
-
-    console.log(newPhrase);
-
-   phrase.fromCharCode(72);
+   return cipher
 } 
